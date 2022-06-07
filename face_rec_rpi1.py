@@ -7,10 +7,9 @@ import time
 import threading
 from datetime import datetime
 import os
-os.system("vcgencmd display_power 0")
 from gtts import gTTS
 import pygame
-
+os.system("vcgencmd display_power 0")
 #from tensorflow.keras.models import load_model
 #from tensorflow.keras.preprocessing.image import img_to_array
 #from tensorflow.keras.preprocessing import image
